@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Damion&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>carousel</title>
+    </head>
+<body>
+
+    <div class="carousel">
+        <div class="carousel-item">
+          <div class="red">1</div>
+        </div>
+        <div class="carousel-item">
+          <div class="green">2</div>
+        </div>
+        <div class="carousel-item">
+          <div class="yellow">3</div>
+        </div>
+        <div class="carousel-item">
+          <div class="violet">4</div>
+        </div>
+        <div class="carousel-item">
+          <div class="blue">5</div>
+        </div>
+        <div class="carousel-item">
+          <div class="burlywood">6</div>
+        </div>
+        <div class="carousel-item">
+          <div class="blueviolet">7</div>
+        </div>
+        <div class="carousel-item">
+          <div class="purple">8</div>
+          </div>
+        <div class="carousel-item">
+          <div class="plum">9</div>
+        </div>
+        <div class="carousel-item">
+          <div class="palegreen">10</div>
+        </div>
+      </div>
+
+      <script>
+      window.onload = function(){
+        var slides = document.getElementsByClassName('carousel-item'),
+            addActive = function(slide) {slide.classList.add('active')},
+            removeActive = function(slide) {slide.classList.remove('active')};
+        addActive(slides[0]);
+        
+        setInterval(function (){
+          for (var i = 0; i < slides.length; i++){
+            if (i + 1 == slides.length) {
+              addActive(slides[0]);
+              slides[0].style.zIndex = 100;
+              setTimeout(removeActive, 350, slides[i]); 
+              break;
+            }
+            if (slides[i].classList.contains('active')) { 
+              slides[i].removeAttribute('style');
+              setTimeout(removeActive, 350, slides[i]);
+              addActive(slides[i + 1]);
+              break;
+            }
+          } 
+        }, 4000);
+      }
+      </script>
+        
+
+</body>
+</html> 

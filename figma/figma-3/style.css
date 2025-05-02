@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-row {
+    width: 3840px;
+    height: 2160px;
+    background: #1A5777;
+    display: flex;
+}
+.col-6 { 
+    padding: 15px;
+}
+.heading {
+    color: #FFD549;
+    font-size: 120px;
+    font-family: 'Damion';
+    font-weight: 400;
+}
+.heading-1 {
+    color: #FFD549;
+    font-size: 100px;
+    font-family: 'Damion';
+    font-weight: 400;
+    margin-top: 75px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.Buttons{
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+    color: #1A5777;
+    font-size: 52px;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.Button-1 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-2 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-3 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-4 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-5 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-6 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Product {
+    font-size: 56px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Product-1 {
+    font-size: 56px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    color: #fff;
+}
+.Price-list {
+    display: flex;
+    gap: 45px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 56px;
+}
+.content {
+    display: flex;
+    padding-top: 40px;
+    color: #fff;
+}
+.Data {
+    display: flex;
+    font-size: 56px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.data {
+    display: flex;
+    font-size: 56px;
+    color: #00FFFF;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding-top: 40px;
+}
+.Data-3 {
+    display: flex;
+    font-size: 52px;
+    gap: 50px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding-left: 290px;
+    padding-top: 50px;
+}
+.data-3 {
+    display: flex;
+    font-size: 52px;
+    gap: 185px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+    padding-left: 220px;
+}
+.Data p span {
+    padding-left: 300px;
+}
+.data p span {
+    padding-left: 300px;
+}
+.Price-1 span {
+    color: #FFD549;
+}
+.Data span {
+    color: #00FFFF;
+}
+.Data-1 {
+    display: flex;
+    font-size: 56px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    padding-left: 300px;
+}
+.data-1 {
+    display: flex;
+    font-size: 56px;
+    color: #61EF77;
+    font-weight: 500;
+    font-family: 'Roboto';
+    padding-top: 40px;
+}
+.Data-1 span {
+    color: #61EF77;
+    font-weight: 500;
+}
+.data-1 p span {
+    padding-left: 300px;
+}
+.Data-2 {
+    display: flex;
+    font-size: 56px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    padding-left: 300px;
+}
+.data-2 {
+    display: flex;
+    font-size: 56px;
+    color: #FFCB67;
+    font-family: 'Roboto';
+    padding-top: 40px;
+}
+.Data-2 span {
+    color: #FFCB67;
+    font-weight: 500;
+}
+.data-2 span {
+    font-weight: 500;
+}
+.data-2 p span {
+    padding-left: 300px;
+}
+.Buttons-1 {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    color: #1A5777;
+    font-size: 52px;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+}
+.content-1 {
+    display: flex;
+    padding-top: 36px;
+    color: #fff;
+    gap: 35px;
+}
+.Price-list-1 {
+    display: flex;
+    gap: 23px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    font-weight: 500;
+}
+.Data-1 p {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+.Data-2 p {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@media (max-width:1920px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .main-row {
+        width: 1920px;
+        height: 1080px;
+    }
+    .col-6 {
+        width: 960px;
+    }
+    .heading {
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .Buttons{
+        gap: 15px;
+        font-size: 20px;
+        padding-top: 35px;
+    }
+    .Button-1 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-2 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-3 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-4 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-5 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-6 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Product {
+        font-size: 25px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Price-list {
+        display: flex;
+        gap: 30px;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .content {
+        display: flex;
+        padding-top: 20px;
+        color: #fff;
+        gap: 7px;
+    }
+    .Data {
+        font-size: 20px;
+        gap: 20px;
+
+        font-weight: 500;
+    }
+    .Data p {
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+    .Data-1 {
+        font-size: 20px;
+        gap: 20px;
+        padding-left: 150px;
+    }
+    .Data-1 span {
+        font-weight: 500;
+    }
+    .Data-2 {
+        font-size: 20px;
+        gap: 20px;
+        padding-left: 150px;
+    }
+    .Data-2 span {
+        font-weight: 500;
+    }
+    .Buttons-1 {
+        gap: 45px;
+        font-size: 20px;
+        padding-top: 65px;
+    }
+    .content-1 {
+        padding-top: 23px;
+        gap: 100px;
+    }
+    .Price-list-1 {
+        gap: 20px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .Data-1 p {
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+    .Data-2 p {
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }  
+    .Buttons-2 {
+        gap: 15px;
+        font-size: 20px;
+    }
+    .Buttons-3 {
+        gap: 15px;
+        font-size: 20px;
+    }
+    .Data-3 {
+        font-size: 25px;
+        gap: 54px;
+        font-weight: 500;
+        padding-left: 145px;
+        padding-top: 25px;
+    }
+    .Data p span {
+        padding-left: 150px;
+    }
+    .heading-1 {
+        font-size: 50px;
+        font-weight: 400;
+        margin-top: 45px;
+    }
+    .Product-1 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .data {
+        font-size: 20px;
+        font-weight: 500;
+        padding-top: 25px;
+    }
+    .data-1 {
+        font-size: 20px;
+        font-family: 'Roboto';
+        padding-top: 30px;
+    }
+    .data-2 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .data-3 {
+        font-size: 25px;
+        gap: 150px;
+        font-weight: 500;
+        padding-left: 110px;
+    }
+    .data p span {
+        padding-left: 150px;
+    }
+    .data-1 p span {
+        padding-left: 150px;
+    }
+    .data-2 p span {
+        padding-left: 150px;
+    }
+}

@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.main-row {
+    width: 3840px;
+    height: 2160px;
+    background: #1A5777;
+    display: flex;
+}
+.col-6 {
+    border-right: 2px solid #e0d514;
+    padding: 15px;
+    width: 1920px;
+}
+.heading {
+    color: #FFD549;
+    font-size: 120px;
+    font-family: 'Damion';
+    font-weight: 400;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.Buttons{
+    display: flex;
+    gap: 8px;
+    color: #1A5777;
+    font-size: 52px;
+    align-items: center;
+    text-align: center;
+}
+.Button-1 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-2 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-3 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-4 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Button-5 {
+    background: #fff;
+    border-radius: 15px;
+    width: 144px;
+    height: 80px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Product {
+    font-size: 56px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Price-list {
+    display: flex;
+    gap: 35px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 56px;
+}
+.content {
+    display: flex;
+    padding-top: 40px;
+    color: #fff;
+    gap: 30px;
+}
+.Data {
+    display: flex;
+    font-size: 48px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+.Data p {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+.Price-1 span {
+    color: #FFD549;
+}
+.Data span {
+    color: #00FFFF;
+}
+.Data-1 {
+    display: flex;
+    font-size: 48px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.Data-1 span {
+    color: #61EF77;
+    font-weight: 500;
+}
+.Data-2 {
+    display: flex;
+    font-size: 48px;
+    gap: 30px;
+    color: #fff;
+    font-family: 'Roboto';
+}
+.Data-2 span {
+    color: #FFCB67;
+    font-weight: 500;
+}
+.Buttons-1 {
+    display: flex;
+    gap: 25px;
+    color: #1A5777;
+    font-size: 52px;
+    align-items: center;
+    text-align: center;
+}
+.content-1 {
+    display: flex;
+    padding-top: 40px;
+    color: #fff;
+    gap: 70px;
+}
+.Price-list-1 {
+    display: flex;
+    gap: 20px;
+    font-family: 'Roboto';
+    font-size: 50px;
+    font-weight: 500;
+}
+.Data-1 p {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+.Data-2 p {
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+@media (max-width:1920px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    .main-row {
+        width: 1920px;
+        height: 1080px;
+    }
+    .col-6 {
+        padding: 15px;
+        width: 960px;
+    }
+    .heading {
+        font-size: 50px;
+        font-weight: 400;
+    }
+    .Buttons{
+        gap: 15px;
+        font-size: 20px;
+    }
+    .Button-1 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-2 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-3 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-4 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Button-5 {
+        background: #fff;
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Product {
+        font-size: 25px;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Price-list {
+        display: flex;
+        gap: 30px;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .content {
+        display: flex;
+        padding-top: 23px;
+        color: #fff;
+        gap: 40px;
+    }
+    .Data {
+        display: flex;
+        font-size: 20px;
+        gap: 20px;
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: 500;
+    }
+    .Data p {
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+    .Price-1 span {
+        color: #FFD549;
+    }
+    .Data span {
+        color: #00FFFF;
+    }
+    .Data-1 {
+        display: flex;
+        font-size: 20px;
+        gap: 20px;
+        color: #fff;
+        font-family: 'Roboto';
+    }
+    .Data-1 span {
+        color: #61EF77;
+        font-weight: 500;
+    }
+    .Data-2 {
+        display: flex;
+        font-size: 20px;
+        gap: 20px;
+        color: #fff;
+        font-family: 'Roboto';
+    }
+    .Data-2 span {
+        color: #FFCB67;
+        font-weight: 500;
+    }
+    .Buttons-1 {
+        display: flex;
+        gap: 5px;
+        color: #1A5777;
+        font-size: 20px;
+        align-items: center;
+        text-align: center;
+    }
+    .content-1 {
+        display: flex;
+        padding-top: 23px;
+        color: #fff;
+        gap: 100px;
+    }
+    .Price-list-1 {
+        display: flex;
+        gap: 20px;
+        font-family: 'Roboto';
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .Data-1 p {
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+    .Data-2 p {
+        margin-top: 13px;
+        margin-bottom: 0px;
+    }
+        
+}
+

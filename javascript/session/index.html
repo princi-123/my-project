@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title>
+        JavaScript innerHTML
+    </title>
+    <style>
+        #container {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <h1 style="color: green;">
+            GeeksforGeeks
+        </h1>
+        <h2>
+            Click the below buttons to set, retrieve and <br />
+            remove the stored values from the sessionStorage.
+        </h2>
+        <label for="nameInp">Enter Key for Storage:</label><br />
+        <input type="text" id="nameInp"><br /><br />
+        <label for="emailInp">Enter Value for Storage:</label><br />
+        <input type="text" id="emailInp">
+        <p id="result"></p>
+        <button id="setBtn">Set Item</button>
+        <button id="getBtn">Get Item</button>
+        <button id="removeBtn">Remove Item</button>
+    </div>
+
+    <script>
+        const setBtn = document.getElementById('setBtn');
+        const getBtn = document.getElementById('getBtn');
+        const removeBtn = document.getElementById('removeBtn');
+        const result = document.getElementById('result');
+        function setItemHandler() {
+            sessionStorage.clear();
+            const nameInpText =
+                document.getElementById('nameInp').value;
+            const emailInpText =
+                document.getElementById('emailInp').value;
+            if (emailInpText && nameInpText) {
+                sessionStorage.setItem(nameInpText, emailInpText);
+                result.innerHTML = " ";
+            }
+            else {
+                result.innerHTML = `
+        			<b style='color: red'>
+        				Input fields can not be empty!
+        			</b>`;
+            }
+        }
+
+        function getItemHandler() {
+            const nameInpText =
+                document.getElementById('nameInp').value;
+            const emailInpText =
+                document.getElementById('emailInp').value;
+            if (emailInpText && nameInpText) {
+                result.innerHTML = `
+        			<b style='color: green'>
+        				Stored Item: ${sessionStorage.getItem(nameInpText)}
+        			</b>`;
+            }
+            else {
+                result.innerHTML = `
+        			<b style='color: red'>
+        				No item is stored in storage!
+        			</b>`;
+            }
+
+        }
+
+        function removeItemHandler() {
+            const nameInpText =
+                document.getElementById('nameInp').value;
+            sessionStorage.removeItem(nameInpText);
+            console.log(sessionStorage.removeItem(nameInpText));
+            if (sessionStorage.removeItem(nameInpText) === undefined) {
+                result.innerHTML = `
+        			<b style='color: green'>
+        				Item is removed Successfully!!
+        			</b>`;
+            }
+            else {
+                result.innerHTML = `
+        			<b style='color: red'>
+        				An Error Occured, can not remove item!!
+        			</b>`;
+            }
+        }
+
+        setBtn.addEventListener('click', setItemHandler)
+        getBtn.addEventListener('click', getItemHandler)
+        removeBtn.addEventListener('click', removeItemHandler)
+    </script>
+</body>
+
+</html>
